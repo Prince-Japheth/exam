@@ -1,0 +1,109 @@
+:root {
+    --black-gradient: linear-gradient(144.39deg, #ffffff -278.56%, #6d6d6d -78.47%, #11101d 91.61%);
+    --card-shadow: 0px 20px 100px -10px rgba(66, 71, 91, 0.1);
+}
+  
+.branch-container {
+    text-align: center;
+    padding: 40px 0;
+}
+  
+.branch-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+  
+.branch-item {
+    background-color: #1a2226;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.272);
+    transition: box-shadow 0.3s ease;
+    height: 380px;
+}
+  
+.branch-image {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+  
+.branch-item:hover {
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.326);
+}
+  
+.branch-item:hover .branch-image {
+    transform: scale(1.05);
+}
+  
+.branch-content {
+    padding: 20px;
+    text-align: left;
+}
+  
+.branch-content h5 {
+    margin-top: 0;
+    font-weight: bold;
+    color: #f0f0f0;
+}
+  
+.branch-content p {
+    margin: 10px 0;
+    color: #cfcfcf;
+}
+
+.branch-content .bg-blue-gradient {
+    color: black;
+    margin-top: 1px;
+    border: 1px solid white !important;
+}
+
+.branch-content .bg-blue-gradient:hover {
+    color: rgb(59, 59, 59);
+}
+  
+.pagination {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+  
+.page-btn {
+    background-color: #444 !important;
+    border: 1px solid #555;
+    padding: 2px 19px !important;
+    margin: 0 5px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+  
+.page-btn.active {
+    background-color: #007bff;
+    color: white;
+}
+  
+.page-btn:hover:not(.active) {
+    background-color: #555;
+}
+
+.modal-content {
+    margin-top: -15px;
+    background-color: #1a2226;
+    color: white;
+    overflow: hidden;
+}
+
+.modal-branch-image {
+    border-radius: 5px;
+}
+
+.close {
+    margin-left: auto !important;
+    padding: 10px 5px !important;
+    height: 15px !important;
+    display: flex !important;
+    align-items: center !important;
+    border-radius: 5px;
+}
