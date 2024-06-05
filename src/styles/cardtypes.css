@@ -1,0 +1,49 @@
+.cardtypeimage {
+    height: 200px;
+    padding: 0;
+    margin: 0;
+    
+}
+
+.wrapp {
+    background: linear-gradient(
+        -168.39deg,
+        #ffffff -278.56%,
+        #6d6d6d -78.47%,
+        #11101d 91.61%
+      );
+      border-radius: 25px;
+      padding: 40px;
+}
+
+.content {
+    display: flex;
+}
+
+.content h1 {
+    font-size: 50px;
+    color: white;
+}
+.content p {
+    font-size: 23px;
+    width: 60%;
+    color: rgb(163, 163, 163);
+}
+
+.button-container {
+    display: flex;
+    justify-content: end;
+    gap: 20px;
+}
+
+.button-container button {
+    width: 150px;
+}
+
+.description {
+    width: 100%;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
